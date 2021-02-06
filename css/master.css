@@ -1,0 +1,9 @@
+header a.navbar-brand {
+  margin-right: 140px;
+}
+
+@media all and (max-width: 992px) {
+  header a.navbar-brand {
+    margin-right: 30px;
+  }
+}
