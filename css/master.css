@@ -58,6 +58,10 @@
   width: 80%;
 }
 
+.ms_wrapper_50 {
+  width: 50%;
+}
+
 /* text color */
 .ms_text_white {
   color: #fff;
@@ -92,13 +96,13 @@ header a.navbar-brand {
 /* main menu */
 
 /* slider */
-#slider ul.ms_dots li {
+.slider ul.ms_dots li {
   height: 12px;
   width: 10px;
   border: 1px solid #0167FF;
   border-radius: 50%;
 }
-#slider ul.ms_dots li:first-child {
+.slider ul.ms_dots li:first-child {
   background-color: #0167FF;
 }
 
