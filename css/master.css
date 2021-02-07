@@ -58,6 +58,10 @@
   width: 80%;
 }
 
+/* bg_colors */
+.ms_bg_grey {
+  background-color: #F3F5F9;
+}
 /* HEADER */
 header {
   height: 54px;
