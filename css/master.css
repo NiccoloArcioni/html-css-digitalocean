@@ -62,6 +62,10 @@
 .ms_bg_grey {
   background-color: #F3F5F9;
 }
+
+.ms_bg_white {
+  background-color: #fff;
+}
 /* HEADER */
 header {
   height: 54px;
@@ -74,6 +78,20 @@ header a.navbar-brand {
 /* MAIN */
 /* jumbo */
 
+/* customers */
+
+/* main menu */
+
+/* slider */
+#slider ul.ms_dots li {
+  height: 12px;
+  width: 10px;
+  border: 1px solid #0167FF;
+  border-radius: 50%;
+}
+#slider ul.ms_dots li:first-child {
+  background-color: #0167FF;
+}
 
 /* MEDIA QUERY */
 @media all and (max-width: 768px) {
