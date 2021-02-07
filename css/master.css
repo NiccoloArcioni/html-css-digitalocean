@@ -58,6 +58,11 @@
   width: 80%;
 }
 
+/* text color */
+.ms_text_white {
+  color: #fff;
+}
+
 /* bg_colors */
 .ms_bg_grey {
   background-color: #F3F5F9;
@@ -65,6 +70,10 @@
 
 .ms_bg_white {
   background-color: #fff;
+}
+
+.ms_bg_gradient_blue {
+  background-image: linear-gradient(0deg, #0a1c4f, #0348f9);
 }
 /* HEADER */
 header {
