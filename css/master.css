@@ -6,6 +6,10 @@
 
 
 /* Utility */
+ul li {
+  list-style: none;
+}
+
 /* margin */
 .ms_margin_top_60 {
   margin-top: 60px;
@@ -67,6 +71,14 @@
   color: #fff;
 }
 
+.ms_text_grey {
+  color: grey;
+}
+
+.ms_text_lightgrey {
+  color: rgba(154, 154, 154, 0.5);
+}
+
 /* bg_colors */
 .ms_bg_grey {
   background-color: #F3F5F9;
@@ -82,6 +94,10 @@
 
 .ms_bg_blue {
   background-color: #0c36ae;
+}
+
+.ms_bg_darkblue {
+  background-color: #0a1c4f;
 }
 
 /* HEADER */
