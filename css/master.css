@@ -79,6 +79,11 @@
 .ms_bg_gradient_blue {
   background-image: linear-gradient(0deg, #0a1c4f, #0348f9);
 }
+
+.ms_bg_blue {
+  background-color: #0c36ae;
+}
+
 /* HEADER */
 header {
   height: 54px;
