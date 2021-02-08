@@ -248,6 +248,11 @@ header .navbar-default .navbar-nav > li > a {
   background-color: #0167FF;
 }
 
+/* features */
+#features .ms_features_container {
+  height: 250px;
+  overflow: auto;
+}
 /* MEDIA QUERY */
 @media all and (max-width: 768px) {
   #jumbo .ms_jumbo_form {
@@ -257,7 +262,10 @@ header .navbar-default .navbar-nav > li > a {
   #main_menu .ms_main_menu_nav {
     margin-bottom: 15px;
   }
-  #main_menu .ms_main_menu_topic {
+  
+  #main_menu .ms_main_menu_topic,
+  #features .ms_features_container {
     height: 100%;
+    margin-bottom: 10px;
   }
 }
