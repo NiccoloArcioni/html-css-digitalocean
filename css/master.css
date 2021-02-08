@@ -220,6 +220,24 @@ header .navbar-default .navbar-nav > li > a {
   overflow: auto;
 }
 /* slider */
+.slider .slider_img img {
+  width: 75%;
+}
+.slider .slider_img::before {
+  font-family: 'Glyphicons Halflings';
+  content: '\e079';
+  color: #b4b4b4;
+  font-size: 2em;
+  margin-right: 10px;
+}
+.slider .slider_img::after {
+  font-family: 'Glyphicons Halflings';
+  content:"\e080";
+  color: #0a1c4f;
+  font-size: 2em;
+  margin-left: 10px;
+}
+
 .slider ul.ms_dots li {
   height: 12px;
   width: 10px;
