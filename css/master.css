@@ -134,9 +134,15 @@ ul li a {
 }
 
 .ms_btn_txt_white_bg_blue {
-  color: white;
+  color: #fff;
   background-color: #015AFF;
   border: 1px solid #015AFF;
+}
+
+.ms_btn_txt_blue_bg_white {
+  color: #015AFF;
+  background-color: #fff;
+  border: 1px solid #fff;
 }
 
 .ms_btn_100 {
