@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
 
 /* Utility */
 ul li {
@@ -72,11 +77,15 @@ ul li {
 }
 
 .ms_text_grey {
-  color: grey;
+  color: #b4b4b4;
 }
 
 .ms_text_lightgrey {
   color: rgba(154, 154, 154, 0.5);
+}
+
+.ms_text_blue {
+  color: #015AFF;
 }
 
 .ms_text_darkblue {
@@ -97,7 +106,7 @@ ul li {
 }
 
 .ms_bg_blue {
-  background-color: #0c36ae;
+  background-color: #015AFF;
 }
 
 .ms_bg_darkblue {
@@ -106,10 +115,19 @@ ul li {
 
 /* button */
 .ms_btn_blue {
-  color: #0348f9;
-  border: 1px solid #0348f9;
+  color: #015AFF;
+  border: 1px solid #015AFF;
 }
 
+.ms_btn_txt_white_bg_blue {
+  color: white;
+  background-color: #015AFF;
+  border: 1px solid #015AFF;
+}
+
+.ms_btn_100 {
+  width: 100%;
+}
 /* HEADER */
 header {
   height: 80px;
@@ -135,6 +153,32 @@ header .navbar-default .navbar-nav > li > a {
 
 /* MAIN */
 /* jumbo */
+#jumbo .ms_bg_jumbo {
+  background-image: url('../img/bg_jumbotron.svg');
+}
+
+#jumbo .ms_jumbo_text h1 {
+  font-size: 4em;
+}
+
+#jumbo .ms_jumbo_form {
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#jumbo .ms_jumbo_form h2 {
+  font-weight: 600;
+}
+
+#jumbo .ms_jumbo_form img {
+  height: 20px;
+  float: left;
+}
+
+#jumbo .ms_jumbo_form a.ms_terms_of_service {
+  text-decoration: underline;
+}
 
 /* customers */
 
