@@ -15,6 +15,9 @@ ul li {
   list-style: none;
 }
 
+ul li a {
+  text-transform: capitalize;
+}
 /* margin */
 .ms_margin_top_60 {
   margin-top: 60px;
@@ -69,6 +72,17 @@ ul li {
 
 .ms_wrapper_50 {
   width: 50%;
+}
+
+/* learn more */
+.ms_learn_more::after {
+  content: '>';
+  margin-left: 10px;
+}
+
+/* font weight */
+.ms_font_w_600 {
+  font-weight: 600;
 }
 
 /* text color */
@@ -129,12 +143,6 @@ ul li {
   width: 100%;
 }
 
-/* learn more */
-.ms_learn_more::after {
-  content: '>';
-  margin-left: 10px;
-}
-
 /* HEADER */
 header {
   height: 80px;
@@ -154,7 +162,6 @@ header .navbar-default .navbar-nav ul {
 }
 header .navbar-default .navbar-nav > li > a {
   color: #0a1c4f;
-  text-transform: capitalize;
   line-height: 30px;
 }
 
@@ -197,9 +204,21 @@ header .navbar-default .navbar-nav > li > a {
   width: 100%;
   max-height: 80px;
   object-fit: cover;
+  object-position: center;
 }
 /* main menu */
+#main_menu ul {
+  border-left: 2px solid #b4b4b4;
+  padding-left: 10px;
+}
+#main_menu ul li {
+  margin-bottom: 10px;
+}
 
+#main_menu .ms_main_menu_topic {
+  height: 250px;
+  overflow: auto;
+}
 /* slider */
 .slider ul.ms_dots li {
   height: 12px;
@@ -215,5 +234,12 @@ header .navbar-default .navbar-nav > li > a {
 @media all and (max-width: 768px) {
   #jumbo .ms_jumbo_form {
     margin-top: 15px;
+  }
+
+  #main_menu .ms_main_menu_nav {
+    margin-bottom: 15px;
+  }
+  #main_menu .ms_main_menu_topic {
+    height: 100%;
   }
 }
