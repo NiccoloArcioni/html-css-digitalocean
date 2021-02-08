@@ -220,7 +220,7 @@ header .navbar-default .navbar-nav > li > a {
   overflow: auto;
 }
 /* slider */
-.slider .slider_img img {
+#first_slider .slider_img img {
   width: 75%;
 }
 .slider .slider_img::before {
@@ -262,6 +262,15 @@ header .navbar-default .navbar-nav > li > a {
   border-bottom: 1px solid #fff;
 }
 
+/* second slider */
+#second_slider .slider_img .ms_slider_img_container{
+  display: inline-block;
+  width: 75%;
+  vertical-align: middle;
+}
+#second_slider .slider_img .ms_slider_img_container img {
+  width: 50%;
+}
 /* MEDIA QUERY */
 @media all and (max-width: 768px) {
   #jumbo .ms_jumbo_form {
