@@ -171,6 +171,77 @@ header .navbar-default .navbar-nav > li > a {
   line-height: 30px;
 }
 
+/* SHARK */
+#shark .ms_shark_container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+#shark div {
+  display: inline-block;
+}
+
+#shark .bubble {
+  position: absolute;
+  bottom: 20px;
+  right: 100px;
+  width: 320px;
+  height: 65px;
+  padding: 10px;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 12px #4e4e4e;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  z-index: 999;
+}
+
+.bubble:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 9px 0 9px 16px;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 999;
+  right: -10px;
+  top: 40px;
+}
+
+#shark .ms_bg_blue {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  height: 60px;
+  width: 60px;
+  box-shadow: 1px 1px 12px #4e4e4e;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+
+#shark img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#shark .ms_shark_img_notification {
+  position: relative;
+}
+
+#shark .ms_shark_img_notification .ms_shark_notification {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 25px;
+  width: 25px;
+  box-shadow: 1px 1px 12px #4e4e4e;
+  background-color: red;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
 /* MAIN */
 /* jumbo */
 #jumbo .ms_bg_jumbo {
