@@ -79,6 +79,10 @@ ul li {
   color: rgba(154, 154, 154, 0.5);
 }
 
+.ms_text_darkblue {
+  color: #0a1c4f;
+}
+
 /* bg_colors */
 .ms_bg_grey {
   background-color: #F3F5F9;
@@ -100,13 +104,33 @@ ul li {
   background-color: #0a1c4f;
 }
 
-/* HEADER */
-header {
-  height: 54px;
+/* button */
+.ms_btn_blue {
+  color: #0348f9;
+  border: 1px solid #0348f9;
 }
 
-header a.navbar-brand {
-  margin-right: 140px;
+/* HEADER */
+header {
+  height: 80px;
+}
+
+header .navbar-brand {
+  margin-right: 40px;
+  width: 165px;
+}
+
+header a.navbar-brand img {
+  height: 30px;
+}
+
+header .navbar-default .navbar-nav ul {
+  width: 40%;
+}
+header .navbar-default .navbar-nav > li > a {
+  color: #0a1c4f;
+  text-transform: capitalize;
+  line-height: 30px;
 }
 
 /* MAIN */
@@ -131,11 +155,5 @@ header a.navbar-brand {
 @media all and (max-width: 768px) {
   #jumbo .ms_jumbo_form {
     margin-top: 15px;
-  }
-}
-
-@media all and (max-width: 992px) {
-  header a.navbar-brand {
-    margin-right: 30px;
   }
 }
