@@ -1,0 +1,20 @@
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  position: absolute;
+  top: 8px;
+  left: 13px;
+  pointer-events: none;
+  color: rgba(150, 150, 150, 0.67);
+}
+
+.form-group .form-control:focus ~ label,
+.form-group .form-control:valid ~ label {
+  transform: translate(-12px,-25px);
+  font-size: 0.8em;
+  color: #000;
+  transition: 0.8s;
+}
