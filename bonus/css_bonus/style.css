@@ -19,3 +19,8 @@
   color: #000;
   transition: 0.8s;
 }
+
+/* SHARK */
+#shark p {
+  font-family: 'Anonymous Pro', monospace;
+}
