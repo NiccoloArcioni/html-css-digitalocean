@@ -18,6 +18,11 @@ ul li {
 ul li a {
   text-transform: capitalize;
 }
+
+.collapse {
+  display: none;
+}
+
 /* margin */
 .ms_margin_top_60 {
   margin-top: 60px;
@@ -374,5 +379,34 @@ footer .footer_company_container ul li a {
 @media all and (max-width: 992px) {
   #table .ms_text_speed_container:last-of-type {
     margin-top: 30px;
+  }
+}
+
+/* Cambiato punto collapse per il navbar-toggle */
+@media all and (max-width: 992px) {
+  .navbar-header,
+  .navbar-left,
+  .navbar-right,
+  .navbar-nav {
+    float: none !important;
+  }
+
+  #navbar .navbar-header .navbar-toggle.collapsed {
+    display: block;
+  }
+
+  #navbar .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .collapse.in {
+    display: block !important;
+  }
+}
+
+/* Aggiunta breakpoint in navbar */
+@media all and (max-width: 1124px) {
+  #navbar .ms_wrapper_80{
+    width: 90%;
   }
 }
