@@ -10,6 +10,7 @@
   left: 13px;
   pointer-events: none;
   color: rgba(150, 150, 150, 0.67);
+  transition: all 0.5s ease-in-out 0s;
 }
 
 .form-group .form-control:focus ~ label,
@@ -17,7 +18,6 @@
   transform: translate(-12px,-25px);
   font-size: 0.8em;
   color: #000;
-  transition: 0.8s;
 }
 
 /* SHARK */

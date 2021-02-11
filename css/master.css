@@ -283,11 +283,12 @@ header .navbar-default .navbar-nav > li > a {
   padding: 0px 10px;
 }
 #customers .img_customer img {
-  width: 100%;
-  max-height: 80px;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: cover;
   object-position: center;
 }
+
 /* main menu */
 #main_menu ul {
   border-left: 2px solid #b4b4b4;
@@ -304,6 +305,7 @@ header .navbar-default .navbar-nav > li > a {
 /* slider */
 #first_slider .slider_img img {
   width: 75%;
+  vertical-align: middle;
 }
 .slider .slider_img::before {
   font-family: 'Glyphicons Halflings';
@@ -363,6 +365,13 @@ footer .footer_company_container ul li a {
 @media all and (max-width: 768px) {
   #jumbo .ms_jumbo_form {
     margin-top: 15px;
+  }
+
+  #jumbo .row div:first-child {
+    padding-bottom: 15px;
+  }
+  #jumbo .row div:last-child {
+    padding-top: 15px;
   }
 
   #main_menu .ms_main_menu_nav {
